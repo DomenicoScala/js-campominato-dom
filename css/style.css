@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+main{
+    background-color: aqua;
+}
+
+
+header{
+    height: 80px;
+    padding: 10px;
+}
+
+.flex-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-header h1{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+img{
+    width: 5%;
+    vertical-align: middle;
+}
+
+
+#special-button{
+    padding: 5px 25px;
+}
+
+footer{
+    height: 50px;
+    padding: 20px;
+}
+
+footer h4{
+    display: inline-block;
+}
+
+main{
+    height: calc(100vh - 130px);
+    padding: 20px;
+    overflow-y: auto;
+}
+
+
+.result-grid{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.cell{
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    color: black;
+    background-color: green;
+    font-size: bold;
+    cursor: pointer;
+}
+
+.cell.clicked{
+    background-color:blue;
+    color: goldenrod;
+}
+
+.cell.bomb{
+    background-color: red;
+    color: white;
+}
+
+
+.cell-100{
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+}
+
+.cell-81{
+    width: calc(1000px / 9);
+    height: calc(1000px / 9);
+    line-height: calc(1000px / 9);
+}
+
+.cell-49{
+    width: calc(1000px / 7);
+    height: calc(1000px / 7);
+    line-height: calc(1000px / 7);
+}
+
+
+
+
